@@ -8,7 +8,8 @@ public class MyItem<T> {
     }
 
     public MyItem(){
-        this.item = (T) new Boolean(null);
+    //    this.item = (T) new Boolean(null);
+        this.item = null;
     }
 
     boolean isPresent(){
@@ -25,6 +26,9 @@ public class MyItem<T> {
     }
 
     public void getClassName(){
-        System.out.println(item.getClass());
+        if(this.item == null) {
+            System.out.println("значение = null");
+        }
+         else System.out.println(item.getClass());
     }
 }
