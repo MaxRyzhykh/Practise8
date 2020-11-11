@@ -8,7 +8,6 @@ public class MyItem<T> {
     }
 
     public MyItem(){
-    //    this.item = (T) new Boolean(null);
         this.item = null;
     }
 
