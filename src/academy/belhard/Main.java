@@ -23,9 +23,5 @@ public class Main {
     System.out.println(item2.toString());
     item2.getClassName();
 
-//    Boolean bol = new Boolean(true);
-//    System.out.println(bol.getClass());
-
-
     }
 }
